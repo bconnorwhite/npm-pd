@@ -1,13 +1,13 @@
 <div align="center">
   <h1>npm-pd</h1>
-  <a href="https://npmjs.com/package/npm-publisher-dashboard">
-    <img alt="npm" src="https://img.shields.io/npm/v/npm-publisher-dashboard.svg">
+  <a href="https://npmjs.com/package/npm-pd">
+    <img alt="npm" src="https://img.shields.io/npm/v/npm-pd.svg">
   </a>
-  <a href="https://github.com/bconnorwhite/npm-publisher-dashboard">
-    <img alt="typescript" src="https://img.shields.io/github/languages/top/bconnorwhite/npm-publisher-dashboard.svg">
+  <a href="https://github.com/bconnorwhite/npm-pd">
+    <img alt="typescript" src="https://img.shields.io/github/languages/top/bconnorwhite/npm-pd.svg">
   </a>
-  <a href="https://github.com/bconnorwhite/npm-publisher-dashboard">
-    <img alt="GitHub stars" src="https://img.shields.io/github/stars/bconnorwhite/npm-publisher-dashboard?label=Stars%20Appreciated%21&style=social">
+  <a href="https://github.com/bconnorwhite/npm-pd">
+    <img alt="GitHub stars" src="https://img.shields.io/github/stars/bconnorwhite/npm-pd?label=Stars%20Appreciated%21&style=social">
   </a>
   <a href="https://twitter.com/bconnorwhite">
     <img alt="Twitter Follow" src="https://img.shields.io/twitter/follow/bconnorwhite.svg?label=%40bconnorwhite&style=social">
@@ -125,7 +125,7 @@ Options:
 ### Programmatic Usage:
 Run npm-pd commands programmatically:
 ```ts
-import { maintainerAction, authorAction, evaluateAction } from "npm-publisher-dashboard";
+import { maintainerAction, authorAction, evaluateAction } from "npm-pd";
 ```
 #### Types:
 ```ts
@@ -151,7 +151,7 @@ type PublisherOptions = {
 Add npm-pd commands to any commander program:
 ```ts
 import { program } from "commander";
-import { maintainer, author, evaluate } from "npm-publisher-dashboard";
+import { maintainer, author, evaluate } from "npm-pd";
 
 maintainer(program);
 author(program);
