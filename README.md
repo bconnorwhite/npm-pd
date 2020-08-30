@@ -95,7 +95,9 @@ Options:
   -h, --help           display help for command
 ```
 
-![screenshot](./assets/screenshot-maintainer.png)
+<div align="center">
+  <img width="624" alt="evaluate" src="https://raw.githubusercontent.com/bconnorwhite/npm-pd/master/assets/screenshot-maintainer.png" />
+</div>
 
 ##
 
@@ -113,7 +115,7 @@ Options:
   -h, --help  display help for command
 ```
 <div align="center">
-  <img width="312" alt="evaluate" src="./assets/screenshot-evaluate.png" />
+  <img width="312" alt="evaluate" src="https://raw.githubusercontent.com/bconnorwhite/npm-pd/master/assets/screenshot-evaluate.png" />
 </div>
 
 ##
