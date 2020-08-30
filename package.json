@@ -1,0 +1,55 @@
+{
+  "name": "npm-pd",
+  "version": "1.0.0",
+  "description": "A CLI dashboard for NPM publishers",
+  "main": "./build/index.js",
+  "author": "Connor White",
+  "license": "MIT",
+  "preferGlobal": true,
+  "homepage": "https://github.com/bconnorwhite/npm-pd.git",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/bconnorwhite/npm-pd.git"
+  },
+  "keywords": [
+    "npm",
+    "publisher",
+    "dashboard",
+    "maintainer",
+    "author",
+    "search",
+    "npm-pd",
+    "pd",
+    "npms",
+    "evaluate",
+    "score",
+    "quality",
+    "popularity",
+    "maintenance"
+  ],
+  "bin": {
+    "npm-pd": "./build/bin/index.js"
+  },
+  "scripts": {
+    "build": "bob build",
+    "prepublishOnly": "yarn build",
+    "test": "node ./build/bin/index.js"
+  },
+  "dependencies": {
+    "@bconnorwhite/module": "^1.0.4",
+    "chalk": "^4.1.0",
+    "cli-table3": "^0.6.0",
+    "commander": "^6.1.0",
+    "lodash": "^4.17.20",
+    "moment": "^2.27.0",
+    "npms-io-client": "^1.0.5",
+    "ora": "^5.0.0",
+    "semver": "^7.3.2",
+    "url": "^0.11.0"
+  },
+  "devDependencies": {
+    "@bconnorwhite/bob": "^1.9.5",
+    "@types/lodash": "^4.14.161",
+    "@types/node": "^14.6.2"
+  }
+}

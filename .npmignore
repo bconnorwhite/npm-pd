@@ -1,0 +1,7 @@
+.DS_Store
+assets
+node_modules
+src
+.gitignore
+yarn.lock
+yarn-error.log
