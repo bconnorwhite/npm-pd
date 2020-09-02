@@ -36,19 +36,19 @@
     "test": "node ./build/bin/index.js"
   },
   "dependencies": {
-    "@bconnorwhite/module": "^1.0.4",
+    "@bconnorwhite/module": "^1.0.5",
     "chalk": "^4.1.0",
     "cli-table3": "^0.6.0",
     "commander": "^6.1.0",
     "lodash": "^4.17.20",
     "moment": "^2.27.0",
-    "npms-io-client": "^1.0.5",
+    "npms-io-client": "^1.0.6",
     "ora": "^5.0.0",
     "semver": "^7.3.2",
     "url": "^0.11.0"
   },
   "devDependencies": {
-    "@bconnorwhite/bob": "^1.9.6",
+    "@bconnorwhite/bob": "^1.9.7",
     "@types/lodash": "^4.14.161",
     "@types/node": "^14.6.2"
   }
