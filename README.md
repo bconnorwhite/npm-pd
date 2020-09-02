@@ -1,5 +1,5 @@
 <div align="center">
-  <h1>npm-pd</h1>
+  <h1>NPM Publisher Dashboard (npm-pd)</h1>
   <a href="https://npmjs.com/package/npm-pd">
     <img alt="npm" src="https://img.shields.io/npm/v/npm-pd.svg">
   </a>
