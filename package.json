@@ -1,6 +1,6 @@
 {
   "name": "npm-pd",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "A CLI dashboard for NPM publishers",
   "main": "./build/index.js",
   "author": "Connor White",
