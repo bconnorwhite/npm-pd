@@ -1009,14 +1009,14 @@
     find-up "^5.0.0"
     read-json-safe "^1.0.1"
 
-"@bconnorwhite/module@^1.0.5":
-  version "1.0.5"
-  resolved "https://registry.yarnpkg.com/@bconnorwhite/module/-/module-1.0.5.tgz#ea45104c5347502a3426b161a1bc5f9aebe221b5"
-  integrity sha512-RfdXU0xlUzAruBHfBSNeyJdqGgNhbd5Sqoz78POw2uW1nz1RKhQB2zLhn/XUgqe//WG0SzXr7+rIwOgYuN7S1g==
+"@bconnorwhite/module@^1.0.6":
+  version "1.0.6"
+  resolved "https://registry.yarnpkg.com/@bconnorwhite/module/-/module-1.0.6.tgz#97b6044116c361b69ca1ac43ad0328b458de6991"
+  integrity sha512-1csML0spyuuP206W1CGEE8AsymRMZpBX4Aiph0vdVDPIU3pKEReuWmAbsdfJ45CBfqtBJODp/k5sPHv6kdMNgA==
   dependencies:
     commander "^6.0.0"
     find-up "^5.0.0"
-    read-json-safe "^1.0.3"
+    read-json-safe "^1.0.4"
 
 "@bconnorwhite/package@^3.0.1", "@bconnorwhite/package@^3.1.0":
   version "3.1.0"
@@ -2673,6 +2673,13 @@ parse-json-object@^1.0.0, parse-json-object@^1.0.3:
   dependencies:
     "@bconnorwhite/json-types" "^1.0.2"
 
+parse-json-object@^1.0.4:
+  version "1.0.4"
+  resolved "https://registry.yarnpkg.com/parse-json-object/-/parse-json-object-1.0.4.tgz#873f73dd6863fb390d4c110f265d82c38a0febd9"
+  integrity sha512-dIMGBVzbXpSWbeLUowiUCW7CfDNLJRXFYQUzoMrcEAsDfOk98hm6yd06SnwsIonHLDaCk4L4sGmYLhwdSUX7+Q==
+  dependencies:
+    "@bconnorwhite/json-types" "^1.0.2"
+
 pascalcase@^0.1.1:
   version "0.1.1"
   resolved "https://registry.yarnpkg.com/pascalcase/-/pascalcase-0.1.1.tgz#b363e55e8006ca6fe21784d2db22bd15d7917f14"
@@ -2768,6 +2775,11 @@ read-file-safe@^1.0.1, read-file-safe@^1.0.3:
   resolved "https://registry.yarnpkg.com/read-file-safe/-/read-file-safe-1.0.3.tgz#491a0adaef0924bf50f6b8eb8b56de2cb2672238"
   integrity sha512-qIq/pUxpoSFzke8n/+Z39fNo9vSZneiubFth/2Th/pLH2BzbCj93tpfxHS5X9cEXebZ2QvVl6KRSR+t1X3IysA==
 
+read-file-safe@^1.0.5:
+  version "1.0.5"
+  resolved "https://registry.yarnpkg.com/read-file-safe/-/read-file-safe-1.0.5.tgz#db13ff746cc79693c35825bcd518be91aacdfb92"
+  integrity sha512-0gfxwCbDDmvsXFZTB0fKL5pwYkOUhnXH+TSbbR8YkO1fSAIbMgBKv4xDGrVdW1D+yoJcCeabALfnJx7KjenTJg==
+
 read-json-safe@^1.0.1:
   version "1.0.2"
   resolved "https://registry.yarnpkg.com/read-json-safe/-/read-json-safe-1.0.2.tgz#8280ae3eac4b92d46700bad76fd40154a1cccc35"
@@ -2776,13 +2788,13 @@ read-json-safe@^1.0.1:
     parse-json-object "^1.0.3"
     read-file-safe "^1.0.3"
 
-read-json-safe@^1.0.3:
-  version "1.0.3"
-  resolved "https://registry.yarnpkg.com/read-json-safe/-/read-json-safe-1.0.3.tgz#560a261efcbcc1bba4f5995f57d43424e56fc373"
-  integrity sha512-IQtP9SJlGPJxdEpqMv2oWZK8P8AhvldsgjDhCMFCkWB3QlZUBnpAuWAqEq4zB3Suxo742XkYbFcy1gNwf2klLg==
+read-json-safe@^1.0.4:
+  version "1.0.4"
+  resolved "https://registry.yarnpkg.com/read-json-safe/-/read-json-safe-1.0.4.tgz#afbf753394a8f976da4ac7f3d4161e3f6dd6025e"
+  integrity sha512-N7l36VCY/0tCSZm+LbH+cxRnFVIpznfVDHuO2mKj/5pdFUVfIRSqYX0NfKB4QWVeRQkYjIMm1ZqTLSNz+kROyw==
   dependencies:
-    parse-json-object "^1.0.3"
-    read-file-safe "^1.0.3"
+    parse-json-object "^1.0.4"
+    read-file-safe "^1.0.5"
 
 readable-stream@^2.0.2:
   version "2.3.7"

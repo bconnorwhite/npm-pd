@@ -36,7 +36,7 @@
     "test": "node ./build/bin/index.js"
   },
   "dependencies": {
-    "@bconnorwhite/module": "^1.0.5",
+    "@bconnorwhite/module": "^1.0.6",
     "chalk": "^4.1.0",
     "cli-table3": "^0.6.0",
     "commander": "^6.1.0",
