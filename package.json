@@ -48,7 +48,7 @@
     "url": "^0.11.0"
   },
   "devDependencies": {
-    "@bconnorwhite/bob": "^1.9.5",
+    "@bconnorwhite/bob": "^1.9.6",
     "@types/lodash": "^4.14.161",
     "@types/node": "^14.6.2"
   }
