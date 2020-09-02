@@ -61,7 +61,8 @@ function header(result: PackageResult) {
   line();
   space("Name", result.collected.metadata.name);
   space("Version", result.collected.metadata.version, chalk.gray);
-  space("Last Update", new Date(result.collected.metadata.date).toLocaleDateString(), chalk.gray);
+  space("Last Package Update", new Date(result.collected.metadata.date).toLocaleString(), chalk.gray);
+  space("Last Analysis", new Date(result.analyzedAt).toLocaleString(), chalk.gray);
   line();
 }
 
