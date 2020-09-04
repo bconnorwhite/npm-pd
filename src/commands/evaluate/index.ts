@@ -39,7 +39,7 @@ function category(a: string, b: number) {
 
 function subcategory(a: string, b: number, integer?: boolean) {
   if(integer) {
-    return space(`${tab(2)}${a}`, b.toString());
+    return space(`${tab(2)}${a}`, b.toFixed(0));
   } else {
     return decimal(`${tab(2)}${a}`, b);
   }
