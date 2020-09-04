@@ -16,7 +16,7 @@
 
 <br />
 
-> A CLI dashboard for NPM publishers.
+> A beautiful CLI dashboard for NPM publishers.
 
 ## Installation
 
@@ -200,4 +200,5 @@ evaluate(program);
 <br />
 
 ## Related Packages
+
 - [npms-io-client](https://npmjs.com/package/npms-io-client): Isomorphic typed client for npms.io
